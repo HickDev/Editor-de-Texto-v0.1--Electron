@@ -132,5 +132,6 @@ app.whenReady().then(createWindow);
 app.on('activate', () => {
   if(BrowserWindow.getAllWindows().lenght === 0){
     createWindow();
+    //doidera
   }
 });
